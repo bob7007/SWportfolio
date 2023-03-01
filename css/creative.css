@@ -177,6 +177,8 @@ header.masthead {
   background-size: cover;
 }
 
+
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -213,6 +215,61 @@ header.masthead p {
     font-size: 4rem;
   }
 }
+
+
+
+
+header.roverhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/rover/google.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+header.roverhead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.roverhead h1 {
+  font-size: 2rem;
+}
+
+header.roverhead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.roverhead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.roverhead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.roverhead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.roverhead h1 {
+    font-size: 4rem;
+  }
+}
+
+
+
 
 .service-box {
   max-width: 400px;
